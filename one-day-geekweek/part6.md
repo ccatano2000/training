@@ -41,37 +41,27 @@ A Cloud Native Platform for people who want to get stuff done.
  * Blob Store
  * Services
  * Doppler / Loggregator
- 
+
 ---
- 
+
 ![](https://github.com/cloudfoundry/docs-cloudfoundry-concepts/blob/master/images/diego/diego-overview.png?raw=true)
- 
----
-
-#Let's Try It 
-
-(you have cf cli installed, right)?
 
 ---
 
-* Clone this repo: `git clone https://github.com/mcowger/hello-python.git`
-* Login to `cf`: `cf login`
-  * target `api.run.pivotal.io`
-  * This is Pivotal Web Services
-* Move into the directory:
-  * `cd hello-python`
-  * `cd version2`
-  * `cf push`
-  
+#Roll that beautiful bean footage!
+
+NHC Demo customer push, bind, scale and application view events and logs.
+
+---
+
+
+
 ---
 
 # Things that just happened:
 
-* Deploy Container
-* Install runtime 
-* install dependencies 
-* Install application 
-* Start application 
-* Modify load balancer 
-* Modify firewall 
-* Add health checks 
+* Deploy application
+* Verify runtime and application is up.
+* Install data services and verify active.
+* Scaled an application.
+* All done via Pivotal Labs or Application Manager. Can be done via CLI too.
